@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #008080;
+}
+
+p {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: row;
+  justify-content: space-between;
+  color: white;
+  background-color: #174950;
+  height: 10vh;
+  align-items: center;
+}
+
+.nav-left-flex {
+  display: flex;
+  justify-content: space-between;
+  width: 20vw;
+}
+
+.nav-right-flex {
+  display: flex;
+  justify-content: space-evenly;
+  width: 15vw;
+}
+
+header p {
+  text-align: center;
+  margin-top: 10vh;
+  font-size: 1.9em;
+  text-shadow: black 4px 4px;
+}
+
+.calendar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #174950;
+  margin-top: 25vh;
+  height: 55vh;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+}
+
+.calendar-img {
+  height: 35vh;
+  width: 25vw;
+  margin: auto;
+}
+
+/* email section */
+.email-section {
+  background-color: #174950;
+  margin-top: 45vh;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+}
+
+.email-img {
+  width: 25vw;
+  height: 35vh;
+  margin-left: 40%;
+}
+
+.email-grabbers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.email-grabber-flex {
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 35vh;
+}
+
+.email-grabber-header {
+  text-shadow: black 4px 4px;
+  font-size: 1.7em;
+}
+
+.email-grabber-text {
+  font-size: 1.2em;
+}
+
+.email-section-text {
+  margin: auto;
+  text-align: center;
+  width: 50vw;
+}
+
+.price-grabber {
+  margin-top: 15vh;
+  text-align: center;
+}
+
+.price-grabber-header {
+  font-size: 1.9em;
+  text-shadow: black 4px 4px;
+}
+
+.price-grabber-text {
+  text-align: center;
+  margin: auto;
+  font-size: 1.2em;
+  width: 35vw;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
+
+/* Sign up page */
+.sign-up-div-body {
+  overflow-y: hidden;
+}
+
+.sign-up-float {
+  display: flex;
+}
+
+.sign-up-form-div {
+  background-color: #174950;
+  width: 50%;
+  color: white;
+}
+
+.sign-up-form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 25%;
+}
+
+.sign-up-form input {
+  width: 35%;
+  margin: auto;
+  height: 3vh;
+  border-radius: 25px;
+}
+
+.sign-up-btn {
+  width: 25%;
+  margin: auto;
+  margin-top: 4%;
+  height: 5vh;
+  border-radius: 25px;
+  border: none;
+}
+
+.sign-up-form input:focus {
+  border-color: #e60234;
+  outline: #8b0f32;
+}

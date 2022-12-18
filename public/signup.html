@@ -1,22 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="sign-up-div-body">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sign up</title>
   </head>
   <body>
-    <form action="/signup" method="post">
-      <label for="name">First Name</label>
-      <input type="text" name="name" id="name" />
-      <label for="email">Email</label>
-      <input type="email" name="email" id="email" />
-      <label for="password">Password</label>
-      <input type="password" name="password" id="password" />
-      <label for="passwordConfirm">Confrim Password</label>
-      <input type="password" name="passwordConfirm" id="passwordConfirm" />
-      <button type="submit">Sign up</button>
-    </form>
+    <nav>
+      <div class="nav-left-flex">
+        <a href="./index.html">
+          <p>MCS</p>
+        </a>
+        <p>Tools</p>
+      </div>
+      <div class="nav-right-flex">
+        <a href="./login.html">
+          <p>Login</p>
+        </a>
+      </div>
+    </nav>
+    <div class="sign-up-float">
+      <div class="sign-up-form-div">
+        <form action="/signup" method="post" class="sign-up-form">
+          <label for="name">First Name</label>
+          <input type="text" name="name" id="name" />
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+          <label for="passwordConfirm">Confrim Password</label>
+          <input type="password" name="passwordConfirm" id="passwordConfirm" />
+          <button type="submit" class="sign-up-btn">Sign up</button>
+        </form>
+      </div>
+      <div>
+        <img src="./images/logo-color.png" alt="logo" />
+      </div>
+    </div>
   </body>
 </html>
